@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+
+body{
+    font-family:'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15 px;
+    font-size: 1cm;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/**********************************NAVBAR********************/
+nav{
+    overflow:hidden ;
+    background-color:#FFFAE1 ;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    font-size: 1.2cm;
+    float: right;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 13px;
+}
+#logo{
+    font-family: 'dancing script','cursive';
+    font-weight: bold;
+    float: left;
+}
+/********************IMAGE PRINCIPALE*************************/
+#imageprincipale{
+    padding-top:60px;
+    background: url(media/image-principale.JPG)no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1{
+    font-family: 'Dancing Script','cursive';
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3cm;
+    margin-top: 100px;  
+    text-shadow: 1px 3px 2px black; 
+}
+#premierTrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px black;  
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2cm;
+    text-shadow: 1px 3px 2px black;
+}
+/**********************presentation**********************/
+#presentation{
+    background-color: #FFFAE1;
+    padding: 10px 0px 100px 0px;
+}
+#textIntro{
+    padding: 0px 20%;
+}
+#prestation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagePrestation{
+    font-family: 'Dancing Script' , 'cursive';
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagePrestation img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+.imagePrestation img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.8s ease-in-out;
+}
+/*********************************TOURISME*******************/
+#tourisme{
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+}
+#tourisme h2{
+    padding-top: 60px;
+}
+#ocean{
+    background: url(media/ocean.jpg);
+}
+#chateau{
+    background: url(media/chateau.JPG);
+}
+#phare{
+    background: url(media/phare.JPG);
+}
+#vignoble{
+    background: url(media/vignes.jpg);
+}
+#tourisme li{
+    margin: 65px 100px 0 100px ;
+    height: 226px;
+    width: 55%;
+   max-width: 550px;
+    float:center;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#tourisme p{
+    height: 45px;
+    width: 235px;
+    background-color: aqua;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 0.5cm;
+   color: black;
+   font-style:bolder;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 0  1px rgb(0, 0, 0);
+}
+#tourisme #chateau ,#tourisme #vignoble {
+float: right;
+}
+/*********************footer********************/
+footer{
+    background-color: #524A3A;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input ,textarea,button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2cm;
+    font-family: 'Advent Pro',sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 80px;
+}
+button{
+    font-size: 1cm;
+    background-color: #FFFAE1;
+}
+button:hover{
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0px  10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+#icons{
+    width: 50%;
+    text-align: right;
+}
+#icons{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: #f1f2f6;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
